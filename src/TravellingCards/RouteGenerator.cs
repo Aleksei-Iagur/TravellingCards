@@ -39,7 +39,7 @@ namespace TravellingCards
                 AddTravellingCardToRoute(card);
             }
 
-            var route = GetRoute();
+            List<TravellingCard> route = GetRoute();
 
             return route.Count == unsortedCards.Count ? route : null;
         }
