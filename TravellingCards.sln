@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TravellingCards", "src\TravellingCards\TravellingCards.xproj", "{B9AAE47E-A1C9-43A7-B554-A3C1DC96681E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{81442561-A7DA-4399-9B82-F8BDCB0B25F8}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TravellingCards.Tests", "TravellingCards.Tests\TravellingCards.Tests.xproj", "{4FE7C681-5FD2-48FF-ADAA-9118D71868AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +26,16 @@ Global
 		{B9AAE47E-A1C9-43A7-B554-A3C1DC96681E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9AAE47E-A1C9-43A7-B554-A3C1DC96681E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9AAE47E-A1C9-43A7-B554-A3C1DC96681E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FE7C681-5FD2-48FF-ADAA-9118D71868AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FE7C681-5FD2-48FF-ADAA-9118D71868AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FE7C681-5FD2-48FF-ADAA-9118D71868AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FE7C681-5FD2-48FF-ADAA-9118D71868AE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B9AAE47E-A1C9-43A7-B554-A3C1DC96681E} = {91E28AB1-0E4D-4F45-BC11-837024E0DB5C}
+		{4FE7C681-5FD2-48FF-ADAA-9118D71868AE} = {81442561-A7DA-4399-9B82-F8BDCB0B25F8}
 	EndGlobalSection
 EndGlobal
